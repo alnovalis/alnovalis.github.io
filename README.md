@@ -1,3 +1,3 @@
 # My Portfolio
-## Eye Movement Exercise
-<a href = https://alnovalis.github.io/Eye-Movement-Exercise/ </a>
+## My Eyes Repo
+<a href = "https://alnovalis.github.io/Eye-Movement-Exercise/"> Eyes Movement Exercise </a>
