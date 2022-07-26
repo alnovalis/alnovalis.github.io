@@ -150,6 +150,7 @@ h2,
   h2,
   .h2 {
     font-size: 1.75rem;
+    text-align: center;
   }
 }
 
@@ -168,6 +169,7 @@ h3,
 h4,
 .h4 {
   font-size: 1.25rem;
+  text-transform: capitalize;
 }
 
 h5,
@@ -270,7 +272,7 @@ a {
 }
 
 a:hover {
-  color: blueviolet;
+  color: rgb(178, 235, 202);
   transition: ease-in-out;
 }
 
@@ -523,8 +525,8 @@ progress {
 }
 
 .lead {
-  font-size: 1.25rem;
-  font-weight: 300;
+  font-size: 1rem;
+  font-weight: 400;
 }
 
 .display-1 {
@@ -1409,6 +1411,7 @@ progress {
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
     width: 33.333333%;
+    padding-right: 25px;
   }
   .col-lg-5 {
     -ms-flex: 0 0 auto;
@@ -4306,7 +4309,6 @@ fieldset:disabled .btn {
 
 .nav-link {
   display: block;
-  padding: 0.5rem 1rem;
   color: #1a1a1a;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
@@ -4456,7 +4458,7 @@ fieldset:disabled .btn {
 }
 
 .navbar-nav .nav-link {
-  padding-right: 0;
+  padding-right: 0px;
   padding-left: 0;
 }
 
@@ -4669,8 +4671,9 @@ body {
     position: absolute;
   }
   .navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 0.5rem;
+    padding-right: 2.9rem;
     padding-left: 0.5rem;
+    padding-bottom: 0rem;
   }
   .navbar-expand-lg .navbar-nav-scroll {
     overflow: visible;
@@ -7935,8 +7938,8 @@ body {
 }
 
 .my-5 {
-  margin-top: 3rem !important;
-  margin-bottom: 3rem !important;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
 }
 
 .my-auto {
@@ -8103,11 +8106,15 @@ body {
 .px-4 {
   padding-right: 1.5rem !important;
   padding-left: 1.5rem !important;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
 }
 
 .px-5 {
   padding-right: 3rem !important;
   padding-left: 3rem !important;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
 }
 
 .py-0 {
@@ -8136,8 +8143,8 @@ body {
 }
 
 .py-5 {
-  padding-top: 3rem !important;
-  padding-bottom: 3rem !important;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
 }
 
 .pt-0 {
@@ -8318,6 +8325,9 @@ body {
 
 .text-center {
   text-align: center !important;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  height: 475;
 }
 
 .text-decoration-none {
@@ -11393,7 +11403,7 @@ body {
 .navbar {
   font-size: 0.875rem;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .navbar-nav .nav-link {
@@ -11420,6 +11430,7 @@ body {
 
 .nav-item {
   margin-right: 2rem;
+  padding: 50px;
 }
 
 .btn {
